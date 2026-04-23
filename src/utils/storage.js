@@ -10,7 +10,7 @@ export function buscarIndice(inventario, nombreProducto) {
   return -1;
 }
 
-// Muestra en consola las alertas de productos con stock por debajo del límite crítico
+// Muestra alertas de productos con stock por debajo del límite crítico
 export function mostrarAlertas(inventario) {
   console.log("========== ALERTAS DE STOCK CRÍTICO ==========");
   let hayAlertas = false;
@@ -23,7 +23,7 @@ export function mostrarAlertas(inventario) {
   }
 
   if (!hayAlertas) {
-    console.log("Sin alertas críticas.");
+    console.log("Sin alertas críticas en este momento.");
   }
 }
 
