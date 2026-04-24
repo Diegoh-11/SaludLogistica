@@ -1,6 +1,6 @@
 import { inventario } from "../model/ProductModel.js";
 import { solicitudes } from "../model/SaleModel.js";
-import { buscarIndice, mostrarAlertas, mostrarReportePorPrioridad } from "../utils/storage.js";
+import { buscarIndice } from "../utils/storage.js";
 
 export function procesarSolicitudes() {
   console.log("========== PROCESANDO SOLICITUDES ==========\n");
@@ -33,6 +33,4 @@ export function procesarSolicitudes() {
     console.log("--------------------------------------------\n");
   }
 
-  mostrarAlertas(inventario);
-  mostrarReportePorPrioridad(inventario);
 }
