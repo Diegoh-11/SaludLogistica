@@ -1,5 +1,5 @@
-import { inventario } from "../model/ProductModel.js";
-import { solicitudes } from "../model/SaleModel.js";
+import { inventario } from "../model/InventarioModel.js";
+import { solicitudes } from "../model/SolicitudModel.js";
 import { buscarIndice } from "../utils/storage.js";
 
 export function procesarSolicitudes() {

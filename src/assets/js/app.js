@@ -1,6 +1,6 @@
-import { inventario } from "../../model/ProductModel.js";
-import { solicitudes } from "../../model/SaleModel.js";
-import { procesarSolicitudes } from "../../controllers/SaleController.js";
+import { inventario } from "../../model/InventarioModel.js";
+import { solicitudes } from "../../model/SolicitudModel.js";
+import { procesarSolicitudes } from "../../controllers/DespachoController.js";
 import { mostrarAlertas, mostrarReportePorPrioridad } from "../../utils/storage.js";
 
 function mostrarInventario() {
